@@ -1,6 +1,5 @@
-package morning.cat.bpp;
+package morning.cat.bpp.demo1;
 
-import morning.cat.bpp.demo1.HelloService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
@@ -8,7 +7,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * @author: morningcat.zhang
  * @date: 2019/3/15 1:15 PM
  */
-public class Test4 {
+public class HelloServiceTest {
 
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath:spring-ioc.xml");

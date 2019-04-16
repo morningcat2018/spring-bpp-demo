@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="helloService" name="helloService2" class="morning.cat.bpp.demo1.HelloServiceImpl"></bean>
+
+    <bean id="helloServiceTwo" name="helloServiceTwo2,helloServiceTwo3,helloServiceTwo4"
+          class="morning.cat.bpp.demo1.HelloServiceImplTwo"></bean>
+
+    <alias name="helloServiceTwo" alias="MyService"/>
+</beans>
