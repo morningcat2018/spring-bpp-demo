@@ -8,6 +8,8 @@
     <artifactId>spring-bpp-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <description>git@github.com:morningcat2018/spring-bpp-demo.git</description>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <springframework.version>4.3.22.RELEASE</springframework.version>
